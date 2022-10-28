@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+        name: nginx
+        namespace: kube-system
+spec:
+        serviceAccountName: hackmeeting-sa
+        containers:
+        - name: nginx
+          image: nginx:alpine
+
