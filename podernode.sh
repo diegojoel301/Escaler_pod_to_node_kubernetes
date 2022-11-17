@@ -13,7 +13,7 @@ grayColour="\e[0;37m\033[1m"
 help()
 {
 	echo -e "${turquoiseColour}[!]${endColour}${grayColour} Ejecutalo asi:${endColour}"
-	echo -e "\n\t${yellowColour}./podernode.sh -p <port> --api-server=<url-api-server> --file=<file pod attacker .yaml> --token=<secret-token> --namespace=<namespace>${endColour}"
+	echo -e "\n\t${yellowColour}./podernode.sh -p <port> -a <url-api-server> -f <file pod attacker .yaml> -t <secret-token> -n <namespace>${endColour}"
 	echo -e "\n${grayColour}Parametros:${endColour}"
 	echo -e "\t${purpleColour}-p${endColour}${grayColour}:${endColour} ${redColour}puerto de atacante en escucha${endColour}"
 	echo -e "\t${purpleColour}-a${endColour}${grayColour}:${endColour} ${redColour}url del servidor API de kubernetes${endColour}"
